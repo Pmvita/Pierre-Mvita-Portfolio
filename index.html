@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vCard - Pierre Portfolio</title>
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <!--custom css link-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!--#MAIN-->
+
+      <aside class="sidebar" data-sidebar><!--#SIDEBAR CARD-->
+
+
+        <div class="sidebar-info"><!--sidebar info-->
+          <figure class="avatar-box">
+            <img src="./assets/images/pierre-avatar.png" alt="Pierre Mvita" width="80"/>
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Pierre Mvita">Pierre Mvita</h1>
+            <p class="title">Full-Stack Developer</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn><!-- On Mobile Show Contacts Button-->
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+
+        <div class="sidebar-info_more"><!--sidebar info more-->
+          <div class="separator"></div>
+          <ul class="contacts-list">
+
+
+            <li class="contact-item"><!-- Email -->
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a href="mailto:petermvita@hotmail.com" class="contact-link">Petermvita@hotmail.com</a>
+              </div>
+            </li>
+
+            <!-- Phone Number
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+12133522795" class="contact-link">+1(437)-556-5512</a>
+              </div>
+            </li>
+          -->
+
+            <li class="contact-item"><!-- Phone Number -->
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="1982-06-23">May 20, 1997</time>
+              </div>
+            </li>
+
+            <li class="contact-item"><!--Location-->
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Toronto, Ontario, CAN</address>
+              </div>
+            </li>
+          </ul>
+          <div class="separator"></div>
+
+          <!-- Social Media Icon Links-->
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://x.com/mxdnxghtsonly"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/pierre-mvita"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/Pmvita"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--#main-content-->
+      <div class="main-content">
+
+
+        <nav class="navbar"><!--#NAVBAR-->
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about"><!--#ABOUT PAGE-->
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+          <section class="about-text"><!-- About Me Section -->
+            <p>
+              Hi, I'm Pierre Mvita a Full-Stack Developer.
+            </p>
+            <p>
+              With specialized knowledge in Web Development, Project Management, and Mobile App Development. 
+              — Helping Businesses Achieve Scalable and user-friendly Software Solutions.
+            </p>
+          </section>
+
+          <section class="service"><!--What I Do Section -->
+            <h3 class="h3 service-title">What I Do</h3>
+            <ul class="service-list">
+
+              <li class="service-item"><!-- Project Management -->
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-manager.png" alt="camera icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Project Management</h4>
+                  <p class="service-item-text">
+                    High-quality project management with a professional approach.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item"><!-- Web Design -->
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.png" alt="design icon" width="40" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Design</h4>
+                  <p class="service-item-text">
+                    The creation of modern and high-quality designs at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item"><!-- Web Development -->
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40" />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+                  <p class="service-item-text">
+                    High-quality development of web applications at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item"><!-- Mobile Apps -->
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-phone.png" alt="mobile app icon" width="40"/>
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+                  <p class="service-item-text">
+                    Professional mobile application development for iOS.
+                  </p>
+                </div>
+              </li>  
+
+            </ul>
+          </section>
+
+          <section class="testimonials"><!--testimonials-->
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <ul class="testimonials-list has-scrollbar">
+
+              <li class="testimonials-item"><!-- Testimonial -->
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-2.png" alt="Divine M." width="60" data-testimonials-avatar/>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                    Divine M.
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Working with Pierre as our full-stack developer has been
+                      an incredible experience. He created a beautiful,
+                      user-friendly website that perfectly reflects our mission
+                      at Divine Light Foundation.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item"><!-- Gloria Testimonial -->
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Gloria G.</h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I had the pleasure of hiring Pierre for our daycare business, and I couldn’t be happier with the results. 
+                      Pierre quickly understood the vision and brought it to life with a beautiful, website. His and attention to 
+                      detail was impressive, and he was always open to feedback, making the process smooth and collaborative. 
+                      I highly recommend Pierre for your project; he is a talented and dedicated developer who will add value to 
+                      any team!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item"><!-- Testimonial -->
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar/>
+                  </figure>
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                    Daniel L.
+                  </h4>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Pierre was brought on to develop our corporate website,
+                      and we couldn’t be more satisfied with the results. His
+                      deep expertise and attention to detail ensured that every
+                      aspect of our vision was executed perfectly. Pierre not
+                      only delivered a polished, professional site but also took
+                      the time to understand our unique needs, providing
+                      valuable insights and solutions throughout the process.
+                      His dedication to client satisfaction and ability to go
+                      above and beyond made working with him a fantastic
+                      experience.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!--  Extra testimonial
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" 
+                  width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
+                </div>
+              </div>
+            </li>
+          -->
+            </ul>
+          </section>
+
+          <div class="modal-container" data-modal-container><!--testimonials Pop-Up Modal-->
+            <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img/>
+                </figure>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <time datetime="2024-05-15">15 May, 2024</time>
+                <div data-modal-text>
+                  <p>
+                    Pierre was brought on to develop our corporate website, and
+                    we couldn’t be more satisfied with the results. His deep
+                    expertise and attention to detail ensured that every aspect
+                    of our vision was executed perfectly. Pierre not only
+                    delivered a polished, professional site but also took the
+                    time to understand our unique needs, providing valuable
+                    insights and solutions throughout the process. His
+                    dedication to client satisfaction and ability to go above
+                    and beyond made working with him a fantastic experience.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section class="clients"><!--clients-->
+            <h3 class="h3 clients-title">Clients</h3>
+            <ul class="clients-list has-scrollbar">
+
+              <li class="clients-item">
+                <a href="https://www.linkedin.com/company/divine-light-foundation/" target="_blank" >
+                  <img src="./assets/images/divine-light.jpeg" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#" target="_blank">
+                  <img src="./assets/images/Daycare.png" alt="client logo"/>
+                </a>
+              </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+              <!--
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+-->
+
+              <!--
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+-->
+
+              <!--
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+-->
+            </ul>
+          </section>
+        </article>
+
+        <article class="resume" data-page="resume"><!--#RESUME PAGE -->
+          <header>
+            <h2 class="h2 article-title" href="./assets/files/Pierre_Mvita-Resume.docx" download target="_blank">
+              Resume
+            </h2>
+          </header>
+
+          <section class="timeline"><!-- Tech Stack-->
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Tech Stack</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <!--Programming Languages-->
+                <h4 class="h4 timeline-item-title">Programming Languages</h4>
+                <span> </span>
+                <p class="timeline-text">
+                  HTML <i class="devicon-html5-plain colored"></i> CSS
+                  <i class="devicon-css3-plain-wordmark colored"></i> JavaScript
+                  <i class="devicon-javascript-plain colored"></i> Python
+                  <i class="devicon-python-plain colored"></i> Dart
+                  <i class="devicon-dart-plain colored"></i>
+                  <br />
+                  SQL <i class="devicon-azuresqldatabase-plain colored"></i>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <!--Frameworks &Libraries-->
+                <h4 class="h4 timeline-item-title">Frameworks &Libraries</h4>
+                <span> </span>
+                <p class="timeline-text">
+                  <b>Front-end Libraries:</b>
+                  <br />
+                  Tailwind Css
+                  <i class="devicon-tailwindcss-original colored"></i> &nbsp;
+                  React <i class="devicon-react-original colored"></i> &nbsp;
+                  Vue.js <i class="devicon-vuejs-plain colored"></i> &nbsp;
+                  jQuery <i class="devicon-jquery-plain colored"></i>
+                  <br />
+
+                  <b>Back-end Libraries:</b>
+                  <br />
+                  Express.js <i class="devicon-express-original"></i> &nbsp;
+                  Django <i class="devicon-django-plain colored"></i> &nbsp;
+                  Flask <i class="devicon-flask-plain colored"></i> &nbsp;
+                  Node.js <i class="devicon-nodejs-plain colored"></i>
+                  <br />
+
+                  <b>Database Libraries:</b>
+                  <br />
+                  MongoDB
+                  <i class="devicon-mongodb-plain colored"></i> PostgreSQL
+                  <i class="devicon-postgresql-plain colored"></i> MySQL
+                  <i class="devicon-mysql-plain colored"></i> SQLite
+                  <i class="devicon-sqlite-plain colored"></i> Firebase
+                  <i class="devicon-firebase-plain colored"></i>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <!--Other-->
+                <h4 class="h4 timeline-item-title">Other:</h4>
+                <span> </span>
+                <p class="timeline-text">
+                  GitHub <i class="devicon-github-plain colored"></i> &nbsp; Git
+                  <i class="devicon-css3-plain-wordmark colored"></i> &nbsp; NPM
+                  <i class="devicon-npm-original-wordmark colored"></i> &nbsp;
+                  Visual Studio Code
+                  <i class="devicon-vscode-plain colored"></i> &nbsp; <br />
+                  BrowserDev Tools
+                  <i class="devicon-chrome-plain colored"></i> &nbsp; Figma
+                  <i class="devicon-figma-plain colored"></i>
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline"><!-- Education-->
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Google - Project Management
+                </h4>
+                <span>2024 — Current</span>
+                <p class="timeline-text">
+                  Developed by Google experts focusing on project planning,
+                  scheduling, budgeting, and risk management. It emphasizes
+                  methodologies like Agile and Scrum, equipping candidates for
+                  entry-level roles in project management
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IBM - IOS & Android Mobile App Development
+                </h4>
+                <span>2024 — Current</span>
+                <p class="timeline-text">
+                  Hosted by Coursera & developed by IBM experts, with a focus on
+                  Swift for iOS and Java for Android, the program emphasizes
+                  building responsive, user-friendly mobile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Meta - Backend Developer Certificate
+                </h4>
+                <span>2023 — 2024</span>
+                <p class="timeline-text">
+                  Developed by Meta experts and hosted by Coursera. With a focus
+                  on Python, these rigorous, self-paced courses, prepare a
+                  candidate for an entry level job as a back-end developer.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Meta - Frontend Developer Certificate
+                </h4>
+                <span>2023 — 2024</span>
+                <p class="timeline-text">
+                  Hosted by Coursera. With a focus on HTML, CSS, JavaScript, and
+                  React. The program emphasizes building responsive,
+                  user-friendly web interfaces and mastering modern web
+                  development tools.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Morinville Community Highschool
+                </h4>
+                <span>2010 — 2014</span>
+                <p class="timeline-text">
+                  Graduated from Morinville Community Highschool.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline"><!-- Experience-->
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="hammer-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Freelance Full-Stack Developer
+                </h4>
+                <span>2023 — Present</span>
+                <p class="timeline-text">
+                  <!-- Text If Needed -->
+                </p>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Audio Engineer</h4>
+                <span>2019 — 2021</span>
+                <p class="timeline-text">
+                  <!-- Text If Needed -->
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Diesel Auto Technician</h4>
+                <span>2016 — 2023</span>
+                <p class="timeline-text">
+                  <!-- Text If Needed -->
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill"><!-- Skills -->
+            <h3 class="h3 skills-title">My skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Front-End</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Back-End</h5>
+                  <data value="78">78%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 78%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Databases</h5>
+                  <data value="72">72%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 72%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Version Control & Deployment</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="clients"><!--Badges-->
+            <h3 class="h3 clients-title">Badges</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <!-- Meta Full-Stack Engineer Badge -->
+                <a
+                  href="https://www.credly.com/badges/342bdc38-c38f-44af-a387-22433163a834/public_url"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/meta-fullstack-badge.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <!-- Meta Front-End Engineer Badge -->
+                <a
+                  href="https://www.credly.com/badges/05b16758-b1c9-4e7d-8874-557e46e43fad/public_url"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/frontend-dev-badge.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://www.credly.com/badges/0238b490-8404-41c8-afa4-a6a508c7d124/public_url"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/meta-backend-badge.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+
+        <article class="portfolio" data-page="portfolio"><!--#PORTFOLIO PAGE -->
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+
+            
+            <ul class="filter-list"><!--Select Category List-->
+              <li class="filter-item active">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+            <!-- Front-End Category
+              <li class="filter-item active">
+                <button data-filter-btn>Front-End</button>
+              </li>
+            -->
+
+            <!-- Back-End Category
+              <li class="filter-item active">
+                <button data-filter-btn>Back-End</button>
+              </li>
+            -->
+
+            <!-- Full-Stack Category
+              <li class="filter-item active">
+                <button  data-filter-btn>Full-Stack</button>
+              </li>
+            -->
+
+            <!-- Mobile Application Category
+              <li class="filter-item active">
+                <button data-filter-btn>Mobile Applications</button>
+              </li>
+              -->
+            </ul>
+            
+            <div class="filter-select-box"><!--Select Category-->
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select category
+                </div>
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+            
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+            
+                <li class="select-item">
+                  <button data-select-item>Front-End</button>
+                </li>
+            
+                <li class="select-item">
+                  <button data-select-item>Back-End</button>
+                </li>
+            
+                <li class="select-item">
+                  <button data-select-item>Full-Stack</button>
+                </li>
+            
+                <li class="select-item">
+                  <button data-select-item>Mobile Applications</button>
+                </li>
+              </ul>
+            </div>
+
+
+            <ul class="project-list"> <!--Portfolio Projects-->
+
+              <li class="project-item active" data-filter-item data-category="Front-End">
+                <a href="https://github.com/Pmvita/VueLamp-App" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/VueLamp-Screenshot.png" alt="ecom" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">VueLamp-Ecom App</h3>
+                  <p class="project-category">Front-End
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="Front-End">
+                <a href="https://github.com/Pmvita/adviceapp" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Advice-app.png" alt="advice-app" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">Friendly Advice Generator</h3>
+                  <p class="project-category">Front-End
+                    <i class="devicon-react-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="Front-End">
+                <a href="https://github.com/Pmvita/To-Do-List-App" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/Todo-list.png" alt="to-do-list" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">Todo List</h3>
+                  <p class="project-category">Front-End
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                  </p>
+                </a>
+              </li>
+
+              <!-- Mobile Application Project
+              <li class="project-item active" data-filter-item data-category="Mobile Applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img
+                      src="./assets/images/project-4.png" alt="app." loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">ReactNative App w/ db </h3>
+                  <p class="project-category">Mobile Applications
+                    <i class="devicon-react-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-firebase-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+              <!-- Back-End Project
+              <li class="project-item active" data-filter-item data-category="Back-End">
+                <a href="#" target="_blank"> 
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-6.png" alt="#" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Inventory Management System</h3>
+                  <p class="project-category">Back-End
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    <i class="devicon-express-original "></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+              <!-- back-End Project
+              <li class="project-item active" data-filter-item data-category="Back-End">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-7.png" alt="summary" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Event Booking System</h3>
+                  <p class="project-category">Back-End
+                    <i class="devicon-python-plain-wordmark colored"></i>
+                    <i class="devicon-flask-original-wordmark"></i>
+                    <i class="devicon-postgresql-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+              <!-- Mobile Application Project
+              <li class="project-item active" data-filter-item data-category="Mobile Applications">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-8.jpg" alt="daily task manager" loading="lazy"/>
+                  </figure>
+                  <h3 class="project-title">Daily Task Manager</h3>
+                  <p class="project-category">Mobile Applications
+                    <i class="devicon-dart-plain-wordmark colored"></i>
+                    <i class="devicon-flutter-plain colored"></i>
+                    <i class="devicon-firebase-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+              <!-- Full-Stack Project
+              <li class="project-item active" data-filter-item data-category="Full-Stack">
+                <a href="#" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-2.png" alt="#" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">MERN-Stack App</h3>
+                  <p class="project-category">Full-Stack
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    <i class="devicon-express-original"></i>
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+              <!-- Full-Stack Project
+              <li class="project-item active" data-filter-item data-category="Full-Stack">
+                <a href="#" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="./assets/images/project-9.png" alt="#" loading="lazy" />
+                  </figure>
+                  <h3 class="project-title">MEVN-Stack APP</h3>
+                  <p class="project-category">Full-Stack
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    <i class="devicon-express-original colored"></i>
+                    <i class="devicon-vuejs-plain-wordmark"></i>
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                  </p>
+                </a>
+              </li>
+              -->
+
+            </ul>
+          </section>
+        </article>
+
+
+        <article class="blog" data-page="blog"><!--#BLOG PAGE -->
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+
+              <li class="blog-post-item"><!--BigData Conference-->
+                <a href="https://www.bigdata-toronto.com/" target="_blank">
+                  <figure class="blog-banner-box">
+                    <video src="./assets/videos/bigdata.mov" alt="Annual BigData & AI conference in Toronto" loop autoplay muted loading="lazy">
+                      <!-- You can add a fallback image here if the video doesn't load -->
+                      <img src="./assets/images/bigdata.png" alt="Fallback image">
+                    </video>
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Tech</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-10-23">October, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">
+                      Annual BigData & AI Conference
+                    </h3>
+                    <p class="blog-text">
+                      2 Days of complete immersion into the Big Data & AI and Cloud world
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item"><!--BBrainStation Tech Events-->
+                <a href="https://brainstation.io/events/toronto" target="_blank">
+                  <figure class="blog-banner-box">
+                    <video src="./assets/videos/brainstation.mov" alt="Annual BigData & AI conference in Toronto" loop autoplay muted loading="lazy">
+                      <!-- You can add a fallback image here if the video doesn't load -->
+                      <img src="./assets/images/Fallback.png" alt="Fallback image">
+                    </video>
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Tech</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-10-23">October, 2024</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">
+                      BrainStation Tech Events
+                    </h3>
+                    <p class="blog-text">
+                      BrainStation is a global leader in digital skills training. They hold weekly events for Tech 
+                      enthusiasts and developers.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Extra Blog Items
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              -->
+
+              <!-- Extra Blog Items
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              -->
+
+              <!-- Extra Blog Items
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            -->
+
+              <!-- Extra Blog Items
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            -->
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact"><!--#CONTACT PAGE -->
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.67409464822!2d-79.54286382641392!3d43.71812280647344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1728866633009!5m2!1sen!2sca" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form"><!--CONTACT FORM-->
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="mailto:petermvita@hotmail.com" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" active data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+
+
+        </article>
+      </div>
+    </main>
+
+
+<!--custom js link-->
+    <script src="./assets/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2b07727545.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
