@@ -18,6 +18,7 @@ This portfolio is built using HTML, CSS & JavaScript, and features a responsive 
 ## Technical Details
 
 * Programming languages: JavaScript, HTML/CSS
+* Continuous Deployment (CD)
 
 ## Future Development
 
