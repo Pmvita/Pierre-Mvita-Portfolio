@@ -9,11 +9,11 @@ This portfolio is built using HTML, CSS & JavaScript, and features a responsive 
 
 ## Features and Screenshots
 
-![Screenshot 1: Home Page](/screenshots/home.png)
+![Screenshot 1: Home Page](/Screenshots/home.png)
 
-![Screenshot 2: Project Page](/screenshots/project.png)
+![Screenshot 2: Project Page](/Screenshots/project.png)
 
-![Screenshot 3: Contact Page](/screenshots/contact.png)
+![Screenshot 3: Contact Page](/Screenshots/contact.png)
 
 ## Technical Details
 
